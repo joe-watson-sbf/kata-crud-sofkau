@@ -1,4 +1,2 @@
-package co.com.sofka.crud.utils;
-
-public class Utils {
+package co.com.sofka.crud.utils;public class Utils {
 }

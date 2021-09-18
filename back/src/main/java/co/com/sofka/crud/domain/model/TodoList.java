@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Collection;
 
 @Entity
@@ -13,6 +14,7 @@ public class TodoList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String name;
     @OneToMany(fetch = FetchType.EAGER)
-    Collection<Todo> todos;
+    Collection<Todo> todos = new ArrayList<>();
 }
