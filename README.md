@@ -1,3 +1,25 @@
+# TODO LIST
+[@SOFKA UNIVERSITY](https://www.sofka.com.co/es/sofka-university/)
+
+Clonar el repositorio y luego acceder a la domumentación: [API DOCUMENTACIÓN](http://localhost:8080/v2/api-docs)
+Para testear todos los metodos haz click en el siguiente enlace; **Swagger**: http://localhost:8080/swagger-ui.html 
+
+INFORMACION GENERAL DEL PROYECTO:
+Build:
+
+    Con Marven
+    Java 11
+    Database : MySQL
+    Hibernate ORM
+
+
+
+
+
+_______________________________________________________________________________________________________________
+
+
+
 # [Problema]
 
 Pueden ver los siguientes videos para poder comprender la base del código fuente dentro de este repositorio. 
